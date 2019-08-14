@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "avenir";
+  src:  url("../font/AvenirLTStd-Light.otf") format("opentype");
+   
+}
+@font-face {
+  font-family: "avenir-bold";
+  src: url("../font/AvenirLTStd-Black.otf") format("opentype");
+   
+}
+
+* {
+  font-family: "avenir";
+}
+
+h1 {
+  font-size: 62px;
+  font-weight: 700;
+  color: #20273b;
+}
+h2 {
+  font-size: 58px;
+  font-weight: 700;
+  color: #20273b;
+}
+h3 {
+  font-size: 49px;
+  color: #20273b;
+}
+h4 {
+  font-size: 13px;
+  color: #20273b;
+}
+h5 {
+  font-size: 10px;
+  color: #20273b;
+}
+
+p {
+  font-size: 31px;
+  font-family: "avenir";
+}
+
+a{
+    text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+header {
+  margin: 0;
+  padding: 0;
+  background: white;
+  display: flex;
+  justify-content: center;
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+}
+
+header nav {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  max-width: 1200px;
+  height: 165px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 35px;
+  /* border:1px solid red; */
+}
+
+.menu {
+  width: 635px;
+  /* border:1px solid red; */
+}
+ul {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+li {
+  font-size: 31px;
+  font-family: "avenir";
+  font-weight: 300;
+  font-stretch: ultra-condensed;
+  text-decoration: none;
+  list-style: none;
+}
+#prueba-cotiza {
+  text-align: center;
+  width: 286px;
+  background: #20273b;
+  padding: 17px;
+  color: white;
+  border-radius: 50px;
+  font-family: "avenir";
+  font-weight: 400;
+}
+
+/* main-container */
+
+.main-container {
+  background: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* border:1px solid red; */
+}
+.container {
+  width: 1200px;
+  max-width: 1200px;
+  /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+.hero {
+display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  /* height: 884px; */
+  padding: 79px;
+  background: rgba(66, 117, 174, 1);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(66, 117, 174, 1) 0%,
+    rgba(66, 117, 174, 1) 1%,
+    rgba(66, 117, 174, 1) 50%,
+    rgba(49, 59, 87, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(66, 117, 174, 1) 0%,
+    rgba(66, 117, 174, 1) 1%,
+    rgba(66, 117, 174, 1) 50%,
+    rgba(49, 59, 87, 1) 100%
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(66, 117, 174, 1) 0%,
+    rgba(66, 117, 174, 1) 1%,
+    rgba(66, 117, 174, 1) 50%,
+    rgba(49, 59, 87, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    45deg,
+    rgba(66, 117, 174, 1) 0%,
+    rgba(66, 117, 174, 1) 1%,
+    rgba(66, 117, 174, 1) 50%,
+    rgba(49, 59, 87, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(66, 117, 174, 1) 0%,
+    rgba(66, 117, 174, 1) 1%,
+    rgba(66, 117, 174, 1) 50%,
+    rgba(49, 59, 87, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4275ae', endColorstr='#313b57', GradientType=1 );
+}
+.banner {
+    width: 1200px;
+    display: flex;
+    color:white;
+}
+.main-banner{
+    margin-right: -20px;
+}
+.title-banner{
+    font-family: "avenir-bold";
+    color:white;
+    text-align: right;
+}
+.p-banner{
+    color:white;
+    text-align: left;
+    font-family: "avenir";
+    font-weight: 200;
+    font-stretch: condensed;
+}
+
+/* container */
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.video{
+    width: 1200px;
+    /* display: flex; */
+    height: 827px;
+    background-image: url("../img/video-back.png");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
