@@ -19,6 +19,7 @@ h1 {
   color: #20273b;
 }
 h2 {
+  font-family: "avenir-bold";
   font-size: 58px;
   font-weight: 700;
   color: #20273b;
@@ -28,7 +29,8 @@ h3 {
   color: #20273b;
 }
 h4 {
-  font-size: 13px;
+  font-size: 32px;
+  font-family: "avenir";
   color: #20273b;
 }
 h5 {
@@ -41,12 +43,15 @@ p {
   font-family: "avenir";
 }
 
-a{
-    text-decoration: none;
+
+
+.title {
+    text-align: center;
 }
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 /* header */
 header {
@@ -103,23 +108,31 @@ li {
   font-family: "avenir";
   font-weight: 400;
 }
-
+#prueba-cotiza:hover{
+    background: #4f77b3;
+}
+a:link {
+    color: initial;
+  }
+a:hover{
+    color:#4f77b3;
+    font-family: "avenir-bold";
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
 /* main-container */
 
 .main-container {
+    width: 100%;
   background: white;
   display: flex;
   justify-content: center;
   flex-direction: column;
   /* border:1px solid red; */
 }
-.container {
-  width: 1200px;
-  max-width: 1200px;
-  /* display: flex;
-    justify-content: center;
-    flex-direction: column; */
-}
+
 
 .hero {
 display: flex;
@@ -171,6 +184,7 @@ display: flex;
     color:white;
 }
 .main-banner{
+    z-index: 1;
     margin-right: -20px;
 }
 .title-banner{
@@ -188,17 +202,286 @@ display: flex;
 
 /* container */
 .container{
-    width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    /* border:1px solid red; */
 }
 .video{
-    width: 1200px;
-    /* display: flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 827px;
     background-image: url("../img/video-back.png");
     background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat; /* Do not repeat the image*/
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* background-size: 100% 100%; */
+    object-fit: cover;
+    width: 100%;
+}
+
+.bio{
+    /* position: absolute; */
+
+    top: initial;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    border: 1px solid aqua;
+
+    width: 100%;
+    object-fit: cover;
+}
+.background-bio{
+    /* position: relative;
+    z-index: 0; */
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.skills{
+    position: absolute;
+}
+.p-title{
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+
+}
+.p-bio{
+    padding: 0;
+    margin: 0;
+    font-size: 34px;
+    width: 475px;
+    text-align: center;
+}
+.columns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-column{
+    font-size: 34px;
+    /* width: 475px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.p-column:first-child{
+    padding: 0 0 123px 0; 
+}
+.column-1{
+    width: 377px;
+    text-align: center;
+}
+.column-3{
+    width: 377px;
+    text-align: center;
+}
+strong{
+    font-family: "avenir-bold";
+    font-weight: normal;
+}
+
+
+
+.triangulo {
+    background: #d8d6d6;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .triangulo :after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    padding-bottom: 10%;
+    background: #d8d6d6;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  }
+
+/* SERVICES */
+  .services-box{
+    display: flex;
+    justify-content: center;
+}
+.box-img-services{
+    /* margin-top: -200px; */
+    margin-top: -60px;
+}
+  .box-services{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #FFFFFF;
+    border:1px solid #DBA754;
+    width: 270px;
+    height: 500px;
+    margin: 16px;
+    -webkit-box-shadow: -3px 17px 24px -10px rgba(0,0,0,0.61);
+-moz-box-shadow: -3px 17px 24px -10px rgba(0,0,0,0.61);
+box-shadow: -3px 17px 24px -10px rgba(0,0,0,0.61);
+}
+
+
+.main-services{
+    /* margin-top: 150px; */
+}
+.background-services{
+    /* position: relative;
+    z-index: 0; */
+    width: 100%;
+    /* height: 100vh; */
+    object-fit: cover;
+}
+
+.img-services{
+    width: 150px;
+    height: 165px;
+} 
+
+.background-img-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 827px; */
+    height: 1600px;
+    background-image: url("../img/background-services.png");
+    /* background-position: center;  */
+    background-repeat: no-repeat; /* Do not repeat the image*/
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* background-size: 100% 100%; */
+    object-fit: cover;
+    width: 100%;
+}
+
+.description-services{
+    display: flex;
+    justify-content: center;
+    /* width: 203px; */
+    height: 272px;
+
+}
+.p-services{
+    font-size: 25px;
+    line-height: 41px;
+    width: 200px;
+}
+.name-services{
+    width: 270px;
+    height: 79px;
+}
+.name-services, h4{
+    margin: 0;
+    /* width: 270px; */
+    height: 79px;
+}
+
+/* PRECIOS */
+.cotiza{
+    background: white;
+    padding: 25px;
+    margin: 89px 0 0 0;
+    -webkit-box-shadow: -3px 17px 24px -2px rgba(0,0,0,0.61);
+-moz-box-shadow: -3px 17px 24px -2px rgba(0,0,0,0.61);
+box-shadow: -3px 17px 24px -2px rgba(0,0,0,0.61);
+}
+
+.box-price{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #FFFFFF;
+    border:1px solid #DBA754;
+    width: 235px;
+    height: 361px;
+    margin: 16px;
+    -webkit-box-shadow: -3px 17px 24px -10px rgba(0,0,0,0.61);
+-moz-box-shadow: -3px 17px 24px -10px rgba(0,0,0,0.61);
+box-shadow: -3px 17px 24px -10px rgba(0,0,0,0.61);
+}
+
+.price-box{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.description-price{
+    display: flex;
+    justify-content: center;
+    /* width: 203px; */
+    height: 25px;
+
+}
+.p-price{
+    font-size: 25px;
+    line-height: 41px;
+    width: 200px;
+}
+
+.description-price-one{
+    display: flex;
+    justify-content: center;
+    /* width: 203px; */
+    height: 0;
+    /* margin-top: -17px; */
+
+}
+.p-price-one{
+    font-size: 25px;
+    /* line-height: 41px; */
+    /* width: 200px; */
+    margin-top: -10px;
+}
+.name-price h4{
+    /* width: 270px; */
+    height: 79px;
+    color: #D47B51;
+}
+.name-price, h4{
+    margin: 0;
+    /* width: 270px; */
+    height: 79px;
+}
+
+.cotiza-button{
+    background: #20273B;
+    width: 495px;
+    height: 134px;
+    border-radius:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cotiza-button h4{
+    color: white;
+    font-size: 49px;
+    
+}
+
+.main-cotiza-button{
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.p-aliados{
+  font-size: 23px;
+  text-align: center;
 }
