@@ -474,7 +474,9 @@ box-shadow: -3px 17px 24px -10px rgba(0,0,0,0.61);
     font-size: 49px;
     
 }
-
+.cotiza-button:hover{
+  background: #4f77b3;
+}
 .main-cotiza-button{
   display: flex;
   justify-content: center;
