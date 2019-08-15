@@ -487,3 +487,30 @@ box-shadow: -3px 17px 24px -10px rgba(0,0,0,0.61);
   font-size: 23px;
   text-align: center;
 }
+.title-contact {
+  text-align: center;
+}
+
+.contacto{
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+  
+}
+.column-one{
+  width: 524px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.column-second{
+  width: 524px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+form{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
