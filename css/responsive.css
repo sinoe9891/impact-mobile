@@ -16,6 +16,9 @@
         margin-top: -30px;
         width:71.38px;
     }
+    .login-type {
+        margin-bottom: 0px;
+    }
     .main-login {
         width: 257PX;
         height: 386px;
@@ -40,6 +43,7 @@
         margin: 4px 0 4px 0;
     }
     footer {
+        height: 100px;
         flex-direction: column;
         position: fixed;
 bottom: 0;
@@ -48,10 +52,11 @@ bottom: 0;
         width: 29px;
     }
     .column-footer2 img{
-        width: 80px;
+        width: 95px;
+        margin-bottom: 2px;
     }
     .p-footer{
-        font-size: 7px;
+        font-size: 9px;
     }
       
 }
