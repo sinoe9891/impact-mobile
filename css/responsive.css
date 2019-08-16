@@ -1,7 +1,20 @@
-@media screen and (max-width:375px) {
-
-
+/* @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  } */
+@media screen and (max-width:767px) {
     /* LOGIN */
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
     .logo-login img{
         width: 164px;
         /* height: 386px; */
@@ -63,8 +76,26 @@ bottom: 0;
     }
       
 }
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
+    /* .main-login {
+        width: 400px;
+        height: 598px;
+        background: white;
+    }
+    .header-login {
+        height: 110px;
+    }
+    .logo-login {
+        margin: 15px 0 10px 0;
+    }
+    .p-sms {
 
+        margin: 4px 0 4px 0;
+    }
+    .column-footer2 img{
+        width: 180px;
+        margin-bottom: 2px;
+    } */
 }
 @media screen and (min-width:992px) {}
 @media screen and (min-width:1024px) {}
