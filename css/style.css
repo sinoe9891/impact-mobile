@@ -808,9 +808,19 @@ cursor: pointer;
   background: #20273B;
   transform: scale(0.95);
 }
+.login-type button:hover {
+  background: #20273B;
+  /* transform: scale(0.95); */
+}
 .p-sms{
   margin: 0;
 }
 .p-sms{
   margin: 15px;
+}
+.img-sms img{
+  width: 71px;
+}
+.img-lp img{
+  width: 80px;
 }

@@ -1,5 +1,61 @@
-@media screen and (min-width:320px) {}
-@media screen and (min-width:768px) {}
+@media screen and (max-width:375px) {
+
+
+    /* LOGIN */
+    .logo-login img{
+        width: 164px;
+        /* height: 386px; */
+    }
+    .header-login {
+        height: 57px;
+    }
+    .login-img{
+        margin-top: 0;
+    }
+    .login-img img{
+        margin-top: -30px;
+        width:71.38px;
+    }
+    .main-login {
+        width: 257PX;
+        height: 386px;
+        background: white;
+    }
+    .p-sms{
+        font-size:19px;
+    }
+    .img-sms img{
+        width: 44px;
+      }
+      .img-lp img{
+        width: 50px;
+      }
+      .login-type button {
+        width: 110px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .p-sms {
+
+        margin: 4px 0 4px 0;
+    }
+    footer {
+        flex-direction: column;
+    }
+    #facebook, #whatsapp, #linkedin, #youtube, #maps{
+        width: 29px;
+    }
+    .column-footer2 img{
+        width: 80px;
+    }
+    .p-footer{
+        font-size: 7px;
+    }
+      
+}
+@media screen and (min-width:768px) {
+
+}
 @media screen and (min-width:992px) {}
 @media screen and (min-width:1024px) {}
 @media screen and (min-width:1200px) {}
