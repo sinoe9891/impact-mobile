@@ -41,6 +41,8 @@
     }
     footer {
         flex-direction: column;
+        position: fixed;
+bottom: 0;
     }
     #facebook, #whatsapp, #linkedin, #youtube, #maps{
         width: 29px;
