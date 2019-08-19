@@ -85,28 +85,6 @@
     }
 }
 
-@media screen and (max-width:769px) {
-    /* .main-login {
-        width: 400px;
-        height: 598px;
-        background: white;
-    }
-    .header-login {
-        height: 110px;
-    }
-    .logo-login {
-        margin: 15px 0 10px 0;
-    }
-    .p-sms {
-
-        margin: 4px 0 4px 0;
-    }
-    .column-footer2 img{
-        width: 180px;
-        margin-bottom: 2px;
-    } */
-}
-
 @media screen and (max-width:992px) {
     .logo img {
         width: 215px;
@@ -341,6 +319,33 @@
 @media screen and (min-width:1024px) {}
 
 @media screen and (min-width:1200px) {}
+
+@media screen and (max-width:769px) {}
+
+@media screen and (max-width:370px) {
+    .img-animated img {
+        width: 252px;
+        /* background: red; */
+    }
+    .mobile-banner {
+        width: 320px;
+        margin-top: -84px;
+    }
+    h1.title-banner {
+        font-size: 30px;
+        text-align: center;
+    }
+    p.p-banner {
+        text-align: center;
+        font-size: 17px;
+    }
+    .hero {
+        padding: 60px;
+    }
+    .video img {
+        width: 110px;
+    }
+}
 
 
 /* @media screen and (max-width:320px) {}
