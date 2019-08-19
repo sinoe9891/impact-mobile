@@ -248,6 +248,16 @@ color: white;
         }
         .menu-bg {
             /* margin-top: 30px; */
+            background: transparent;
+            pointer-events: none;
+            transition: 0.3s;
+            right: 50px;
+            top: 50px;
+            transform: translate3d(50%, -50%, 0);
+            transform-origin: center center;
+        }
+        .menu-bg-top {
+            /* margin-top: 30px; */
             background: #20273B;
             pointer-events: none;
             transition: 0.3s;
@@ -260,10 +270,12 @@ color: white;
             transform: translate3d(50%, -50%, 0);
             width: 300vw;
             height: 300vw;
+            background: #20273B;
+            color: white;
         }
         .menu-burger {
             /* margin-top: 30px; */
-            color: white;
+            color: #20273B;
             /* padding-top: 11px; */
             user-select: none;
             cursor: pointer;
@@ -275,6 +287,7 @@ color: white;
         }
         .menu-burger.fs {
             transform: rotate(-180deg) translateY(10px);
+            color: white;
         }
         .menu-items {
             position: absolute;

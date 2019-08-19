@@ -380,28 +380,11 @@
             </footer>
             <script>
                 $('.menu-burger, .menu-items').on('click', function() {
-                    $('.menu-bg, .menu-items, .menu-burger').toggleClass('fs');
+                    $('.menu-bg, .menu-bg-top, .menu-items, .menu-burger').toggleClass('fs');
                     $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
                 });
             </script>
-            <script>
-            // Scroll to top
-$(document).ready(function(){
-	//Check to see if the window is top if not then display button
-	$(window).scroll(function(){
-		if ($(this).scrollTop() > 100) {
-			$('.scrollToTop').fadeIn();
-		} else {
-			$('.scrollToTop').fadeOut();
-		}
-	});
-	//Click event to scroll to top
-	$('.scrollToTop').click(function(){
-		$('html, body').animate({scrollTop : 0},800);
-		return false;
-	});
-});
-            </script>
+            
     </body>
 
 </html>
