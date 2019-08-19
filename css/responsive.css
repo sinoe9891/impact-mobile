@@ -108,6 +108,140 @@
 }
 
 @media screen and (max-width:992px) {
+    .logo img {
+        width: 215px;
+    }
+    .mobile-banner {
+        z-index: 1;
+        margin-right: -20px;
+        display: inline;
+        width: 492px;
+        margin-top: -200px;
+    }
+    .main-banner {
+        z-index: 1;
+        margin-right: -20px;
+        display: none;
+    }
+    .banner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    h1.title-banner {
+        font-size: 55px;
+        text-align: center;
+    }
+    p.p-banner {
+        text-align: center;
+        font-size: 26px;
+    }
+    .img-animated img {
+        width: 515px;
+    }
+    .video {
+        height: 442px;
+    }
+    /* SKILLS */
+    .skills {
+        width: 709px;
+    }
+    .column-2 img {
+        width: 212px;
+    }
+    .p-bio {
+        width: 310px;
+        font-size: 25px;
+    }
+    .p-column {
+        width: 270px;
+        font-size: 24px;
+    }
+    .background-bio {
+        height: 75vh;
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .title h2 {
+        width: 553px;
+    }
+    .slider {
+        /* width: 50%; */
+        margin: 0 !important;
+    }
+    .services-box {
+        flex-wrap: wrap;
+    }
+    .background-img-services {
+        height: inherit;
+        background-position: center;
+    }
+    .main-services {
+        margin-top: 150px;
+    }
+    .price-box {
+        padding: 30px 0;
+        margin: 40px;
+        flex-wrap: wrap;
+        background: white;
+        border: 2px solid #DBA754;
+        border-radius: 20px;
+        box-shadow: -3px 17px 24px -2px rgba(0, 0, 0, 0.61);
+    }
+    .box-price,
+    .box-price2,
+    .box-price3,
+    .box-price4 {
+        width: 243px;
+    }
+    .cotiza {
+        box-shadow: initial;
+        background: initial;
+        padding: 0;
+        /* color: white; */
+    }
+    h2.cotiza-title {
+        color: white;
+    }
+    .main-services-cotiza {
+        margin-top: -100px;
+    }
+    .box-main-services {
+        margin-bottom: 40px;
+    }
+    .main-contact {
+        flex-wrap: wrap;
+        height: inherit;
+        margin: 60px 0 60px 0;
+    }
+    .column-one {
+        /* width: initial; */
+    }
+    .column-second {
+        width: initial;
+    }
+    .button-form {
+        justify-content: center;
+        margin: 10px;
+    }
+    .red-mobile {
+        text-align: center;
+        margin: 50px 0;
+    }
+    .red {
+        display: none;
+    }
+    .title-contact h2,
+    .title-contact h4,
+    .title-contact p {
+        text-align: center;
+    }
+    /* .cotiza h2 {
+        color: white;
+    } */
     /* menu */
     header nav {
         height: 100px;

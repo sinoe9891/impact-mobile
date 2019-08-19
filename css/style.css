@@ -176,6 +176,12 @@ a {
     margin-right: -20px;
 }
 
+.mobile-banner {
+    z-index: 1;
+    margin-right: -20px;
+    display: none;
+}
+
 .title-banner {
     font-family: "avenir-bold";
     color: white;
@@ -206,7 +212,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 827px;
-    background-image: url("../img/background-09.jpg");
+    background-image: url("../img/video-back.png");
     background-position: center;
     /* Center the image */
     background-repeat: no-repeat;
@@ -313,6 +319,12 @@ strong {
 
 /* SERVICES */
 
+.box-main-services {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .services-box {
     display: flex;
     justify-content: center;
@@ -360,9 +372,9 @@ strong {
     justify-content: center;
     align-items: center;
     /* height: 827px; */
-    height: 1600px;
+    height: 1700px;
     background-image: url("../img/background-services.png");
-    /* background-position: center;  */
+    background-position: center;
     background-repeat: no-repeat;
     /* Do not repeat the image*/
     background-size: cover;
@@ -509,6 +521,11 @@ h4 {
     display: flex;
     justify-content: center;
     margin-top: -50px;
+}
+
+.box-main-price {
+    display: flex;
+    flex-direction: row;
 }
 
 .description-price {
