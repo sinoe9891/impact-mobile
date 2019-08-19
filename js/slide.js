@@ -52,6 +52,7 @@ $(document).on('ready', function() {
       infinite: true,
       variableWidth: true,
       centerMode: true,
+      centerMode: true,
       
     });
     $(".aliados").slick({

@@ -1,7 +1,8 @@
-  .slider {
-      width: 50%;
-      margin: 100px auto;
-  }
+.slider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
   .slick-slide {
     margin: 0px 20px;
   }
