@@ -737,7 +737,7 @@ form button:active {
 }
 
 footer {
-    padding: 20px;
+    padding: 20px 0;
     /* margin-top: 20px; */
     background: #20273B;
     width: 100%;
@@ -746,6 +746,17 @@ footer {
     justify-content: center;
     flex-direction: row;
     align-items: center;
+}
+.footer-login {
+  padding: 20px 0;
+  /* margin-top: 20px; */
+  background: #20273B;
+  width: 100%;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .copyright {

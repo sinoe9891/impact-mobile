@@ -69,6 +69,12 @@ overflow-y: hidden;
             /* position: fixed; */
             bottom: 0;
         }
+        .footer-login {
+            height: 100px;
+            flex-direction: column;
+            position: fixed;
+            bottom: 0;
+        }
         #facebook,
         #whatsapp,
         #linkedin,
