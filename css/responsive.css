@@ -542,9 +542,9 @@ color: white;
         
         
     }
-    @media only screen and (max-width: 481px) and (min-width: 1024px){
+    /* @media only screen and (max-width: 481px) and (min-width: 1024px){
 
-    }
+    } */
     @media only screen and (max-width: 500px) and (min-width: 300px) {
         .column-2 img {
             width: 90px;
@@ -564,7 +564,7 @@ color: white;
             width: 61px;
         }
         .background-bio {
-            height: 45vh;
+            height: 145vh;
         }
         .p-column:first-child {
             padding: 0 0 31px 0;
