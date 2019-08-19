@@ -323,6 +323,9 @@ color: white;
         .video img {
             width: 100px;
         }
+        .mobile-banner {
+            margin-right: 0;
+        }
     }
     
     @media screen and (min-width:1024px) {}
@@ -349,6 +352,9 @@ color: white;
             text-align: center;
             font-size: 17px;
         }
+        .mobile-banner {
+            margin-right: 0;
+        }
         .hero {
             padding: 60px;
         }
@@ -360,7 +366,7 @@ color: white;
             width: 300px;
         }
         .box-services {
-            width: 160px;
+            width: 145px;
             height: 190px;
             margin: 5px;
         }
@@ -370,7 +376,7 @@ color: white;
         }
         .name-services,
         h4 {
-            width: 160px;
+            width: 145px;
             font-size: 18px;
             margin: 0;
             height: inherit;
@@ -406,102 +412,103 @@ color: white;
             justify-content: center;
             align-items: center;
         }
-        .title-contact h2{
-            font-size: 30px; 
+        .title-contact h2 {
+            font-size: 30px;
         }
-        .title-contact h2, .title-contact h4, .title-contact p {
-
+        .title-contact h2,
+        .title-contact h4,
+        .title-contact p {
             text-align: center;
             width: 296px;
-        
         }
         .main-contact {
             margin: 0px 0 60px 0;
-        
         }
         .column-one {
             width: 296px;
             height: 400px;
             /* height: 500px; */
         }
-        .column-second{
+        .column-second {
             height: 320px;
         }
-        .title-contact p{
+        .title-contact p {
             font-size: 12px;
             line-height: 26px;
         }
         .direccion strong {
-
             font-size: 16px;
             color: white;
         }
-        .title-contact a{
+        .title-contact a {
             font-size: 12px;
         }
-        input{
-            width: 286px;
+        input {
+            width: 275px;
             height: 30px;
             font-size: 11px;
             padding-left: 15px;
         }
-        form{
+        form {
             width: 286px;
         }
         textarea {
-            width: 286px;
+            width: 275px;
             font-size: 11px;
             padding-left: 15px;
             height: 85px;
             border-radius: 20px;
         }
-        form button{
+        form button {
             width: 160px;
             height: 30px;
-            font-size:15px;
+            font-size: 15px;
         }
-        .copyright img{
+        .copyright img {
             width: 160px;
         }
         .p-footer {
-
             font-size: 12px;
-        
         }
-        footer{
+        footer {
             width: initial;
         }
-        .box-price, .box-price2, .box-price3, .box-price4 {
-
+        .box-price,
+        .box-price2,
+        .box-price3,
+        .box-price4 {
             width: 119px;
             height: 184px;
-        
+            margin: 13px;
         }
-        .price-box{
+        .price-box {
             margin: 20px;
         }
-        .name-services, h4 {
-            width: 119px;
+        .name-services,
+        h4 {
+            /* width: 119px; */
+            width: inherit;
         }
         h2.cotiza-title {
             color: white;
-        
         }
         .p-price {
             font-size: 15px;
             line-height: 21px;
             width: 119px;
         }
-        .name-price h2{
+        .name-price h2 {
             font-size: 35px;
         }
-        .name-price, h4 {
+        .name-price,
+        h4 {
             margin: 0;
             height: 45px;
+            width: inherit;
         }
-        .p-price-one{
-        font-size: 15px;
-        }   
+        .p-price-one {
+            font-size: 15px;
+        }
     }
     /* @media screen and (max-width:320px) {}
 @media screen and (max-width:768px) {}
