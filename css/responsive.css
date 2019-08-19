@@ -214,6 +214,7 @@ overflow-y: hidden;
         .red-mobile {
             text-align: center;
             margin: 50px 0;
+            display: inherit;
         }
         .red {
             display: none;
@@ -576,6 +577,32 @@ color: white;
             padding: 0 0 31px 0;
         }
     }
+    /* @media screen and (max-width:1024px) {
+        .background-bio {
+            height: 110vh;
+        }
+        .column-2 img {
+            width: 250px;
+        }
+        .p-bio {
+            width: 250px;
+            font-size: 24px;
+        }
+        .p-column {
+            width: 250px;
+            font-size: 22px;
+        }
+        .column-1, .column-2, .column-3, .column-4{
+            width: 250px;
+        }
+        .column-3 img{
+            width: 120px;
+        }
+        
+        .p-column:first-child {
+            padding: 0 0 31px 0;
+        }
+    } */
     /* @media screen and (max-width:320px) {}
 @media screen and (max-width:768px) {}
 @media screen and (max-width:992px) {}

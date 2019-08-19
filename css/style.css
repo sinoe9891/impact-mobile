@@ -913,3 +913,12 @@ footer {
     color: #4f77b3;
     transform: scale(0.95);
 }
+
+.red-mobile{
+    display: none;
+}
+
+/* Scroll Back to Top*/
+.scrollToTop{ background:#FFCC33; width:60px; height:60px; text-align:center;  position:fixed; bottom:60px; right:50px; display:none; z-index: 99; border-radius:100%; -webkit-border-radius:100%; -moz-border-radius:100%;}
+.scrollToTop:hover{ text-decoration:none; opacity:0.8;}
+.scrollToTop .scrollarrow {width: 0; height: 0; border-style: solid; border-width: 0 10px 15px 10px; border-color: transparent transparent #303030; display: block; margin:20px auto 0;}
