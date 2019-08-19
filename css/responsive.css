@@ -331,7 +331,7 @@ color: white;
     
     @media screen and (max-width:769px) {}
     
-    @media screen and (max-width:370px) {
+    @media screen and (max-width:588px) {
         .img-animated img {
             width: 252px;
             /* background: red; */
@@ -469,6 +469,37 @@ color: white;
         footer{
             width: initial;
         }
+        .box-price, .box-price2, .box-price3, .box-price4 {
+
+            width: 119px;
+            height: 184px;
+        
+        }
+        .price-box{
+            margin: 20px;
+        }
+        .name-services, h4 {
+            width: 119px;
+        }
+        h2.cotiza-title {
+            color: white;
+        
+        }
+        .p-price {
+            font-size: 15px;
+            line-height: 21px;
+            width: 119px;
+        }
+        .name-price h2{
+            font-size: 35px;
+        }
+        .name-price, h4 {
+            margin: 0;
+            height: 45px;
+        }
+        .p-price-one{
+        font-size: 15px;
+        }   
     }
     /* @media screen and (max-width:320px) {}
 @media screen and (max-width:768px) {}
