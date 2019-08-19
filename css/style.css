@@ -896,3 +896,20 @@ footer {
 .img-lp img {
     width: 80px;
 }
+
+/* #servicios:hover{
+    color: #4f77b3;
+} */
+
+#servicios:active {
+    color: #4f77b3;
+    transform: scale(0.95);
+}
+#login:active {
+    color: #4f77b3;
+    transform: scale(0.95);
+}
+#prueba:active {
+    color: #4f77b3;
+    transform: scale(0.95);
+}

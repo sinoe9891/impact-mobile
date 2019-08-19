@@ -545,7 +545,13 @@ color: white;
     /* @media only screen and (max-width: 481px) and (min-width: 1024px){
 
     } */
-    @media only screen and (max-width: 500px) and (min-width: 300px) {
+    @media only screen and (max-width: 500px) and (min-width: 280px) {
+        .menu-items.fs div {
+            opacity: 1;
+            margin-top: 30px;
+        }
+
+        
         .column-2 img {
             width: 90px;
         }
