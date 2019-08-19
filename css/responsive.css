@@ -87,7 +87,7 @@ overflow-y: hidden;
     
     @media screen and (max-width:992px) {
         .logo img {
-            width: 215px;
+            width: 150px;
         }
         .mobile-banner {
             z-index: 1;
@@ -352,7 +352,7 @@ color: white;
             font-size: 27px;
         }
         .box-services {
-            width: 170px;
+            width: 160px;
             height: 190px;
             margin: 5px;
         }
@@ -362,7 +362,7 @@ color: white;
         }
         .name-services,
         h4 {
-            width: 170px;
+            width: 160px;
             font-size: 18px;
             margin: 0;
             height: inherit;
@@ -379,13 +379,89 @@ color: white;
             height: inherit;
         }
         .main-services {
-            margin-top: 110px;
+            margin-top: 80px;
         }
         h2.cotiza-title {
             color: #20273B;
             font-size: 27px;
             text-align: center;
             width: 265px;
+        }
+        .cotiza-button {
+            width: 235px;
+            height: 63px;
+        }
+        .cotiza-button h4 {
+            color: white;
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .title-contact h2{
+            font-size: 30px; 
+        }
+        .title-contact h2, .title-contact h4, .title-contact p {
+
+            text-align: center;
+            width: 296px;
+        
+        }
+        .main-contact {
+            margin: 0px 0 60px 0;
+        
+        }
+        .column-one {
+            width: 296px;
+            height: 400px;
+            /* height: 500px; */
+        }
+        .column-second{
+            height: 320px;
+        }
+        .title-contact p{
+            font-size: 12px;
+            line-height: 26px;
+        }
+        .direccion strong {
+
+            font-size: 16px;
+            color: white;
+        }
+        .title-contact a{
+            font-size: 12px;
+        }
+        input{
+            width: 286px;
+            height: 30px;
+            font-size: 11px;
+            padding-left: 15px;
+        }
+        form{
+            width: 286px;
+        }
+        textarea {
+            width: 286px;
+            font-size: 11px;
+            padding-left: 15px;
+            height: 85px;
+            border-radius: 20px;
+        }
+        form button{
+            width: 160px;
+            height: 30px;
+            font-size:15px;
+        }
+        .copyright img{
+            width: 160px;
+        }
+        .p-footer {
+
+            font-size: 12px;
+        
+        }
+        footer{
+            width: initial;
         }
     }
     /* @media screen and (max-width:320px) {}

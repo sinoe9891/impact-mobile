@@ -582,8 +582,11 @@ h4 {
 }
 
 .cotiza-button h4 {
-    color: white;
-    font-size: 49px;
+  color: white;
+  font-size: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-cotiza-button {
