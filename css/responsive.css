@@ -337,8 +337,9 @@ color: white;
             /* background: red; */
         }
         .mobile-banner {
-            width: 320px;
+            width: 300px;
             margin-top: -84px;
+            margin-right: 0px;
         }
         h1.title-banner {
             font-size: 30px;
@@ -356,6 +357,7 @@ color: white;
         }
         .title h2 {
             font-size: 27px;
+            width: 300px;
         }
         .box-services {
             width: 160px;
