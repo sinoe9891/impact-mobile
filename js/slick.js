@@ -39,17 +39,17 @@
 
             _.defaults = {
                 accessibility: true,
-                adaptiveHeight: false,
+                adaptiveHeight: true,
                 appendArrows: $(element),
                 appendDots: $(element),
                 arrows: true,
                 asNavFor: null,
                 // prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
                 // nextArrow: '<button class="slick-next" aria-label="Next" type="button">Next</button>',
-                autoplay: true,
+                // autoplay: true,
                 autoplaySpeed: 3000,
                 centerMode: true,
-                centerPadding: '50px',
+                centerPadding: '0px',
                 cssEase: 'ease',
                 customPaging: function(slider, i) {
                     return $('<button type="button" />').text(i + 1);
