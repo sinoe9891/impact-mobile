@@ -72,7 +72,8 @@ overflow-y: hidden;
         .footer-login {
             height: 100px;
             flex-direction: column;
-            position: fixed;
+            position: absolute;
+            /* position: fixed; */
             bottom: 0;
         }
         #facebook,
@@ -351,6 +352,15 @@ color: white;
     @media screen and (max-width:769px) {}
     
     @media screen and (max-width:588px) {
+        .img-slider {
+            transform: scale(0.7);
+        }
+        /* .slick-slider .slick-track, .slick-slider .slick-list {
+            height: 300px;
+        } */
+
+
+
         .img-animated img {
             width: 252px;
             /* background: red; */

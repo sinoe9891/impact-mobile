@@ -59,6 +59,7 @@ $(document).on('ready', function() {
       infinite: true,
       variableWidth: true,
       centerMode: true,
+      // centerPadding: '60px'
       
     });
     $(".lazy").slick({
