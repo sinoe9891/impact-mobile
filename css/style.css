@@ -53,7 +53,7 @@ p {
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -165,6 +165,33 @@ a {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4275ae', endColorstr='#313b57', GradientType=1);
 }
 
+.hero-services {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    /* height: 884px; */
+    /* padding: 79px; */
+    background: rgba(66, 117, 174, 1);
+    background: -moz-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: -webkit-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: -o-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: -ms-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4275ae', endColorstr='#313b57', GradientType=1);
+    /* height: 827px; */
+    background-image: url("../img/Grupo\ 256.png");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image*/
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* background-size: 100% 100%; */
+    object-fit: cover;
+    width: 100%;
+    /* height: 100%; */
+}
+
 .banner {
     width: 1200px;
     display: flex;
@@ -184,9 +211,15 @@ a {
     margin-right: -20px;
 }
 
+.line {
+    background: rgba(212, 122, 81, 1);
+    background: linear-gradient(45deg, rgba(212, 122, 81, 1) 0%, rgba(219, 167, 84, 1) 51%, rgba(219, 167, 84, 1) 100%);
+    height: 20px;
+}
+
 .main-banner-services {
     z-index: 1;
-    margin-right: -20px;
+    /* margin-right: -20px; */
 }
 
 .mobile-banner {
@@ -204,7 +237,7 @@ a {
 .title-banner-services {
     font-size: 162px;
     font-family: "avenir-bold";
-    color: white;
+    color: #383838;
     text-align: right;
 }
 
@@ -978,3 +1011,143 @@ footer {
     display: block;
     margin: 20px auto 0;
 }
+
+
+/* SMS IMPACT */
+
+.container-sms-impact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 65px 0;
+    /* flex-direction: column; */
+    /* border:1px solid red; */
+}
+
+.sms-impact {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-impact-sms {
+    width: 50%;
+    /* max-width: 1083px; */
+}
+
+.movil-img {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-sms {
+    width: 50%;
+}
+
+.info-impact-sms {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px */
+}
+
+.txt-sms {
+    font-size: 27px;
+    text-align: justify;
+}
+
+.txt-sms-bullets {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 27px;
+}
+
+.types-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sms-alerts {
+    width: 198px;
+    text-align: center;
+}
+
+.sms-inter {
+    width: 224px;
+}
+
+.sms-consul {
+    width: 158px;
+}
+
+.promo-sms {
+    height: 110px;
+    text-align: center;
+}
+
+.citas-sms {
+    height: 110px;
+    text-align: center;
+}
+
+.recordatorio-sms {
+    height: 110px;
+    text-align: center;
+}
+
+.title-sms-alerts {
+    /* font-weight: 700; */
+    text-align: center;
+    font-family: "avenir-bold";
+}
+
+.title-sms-inter {
+    /* font-weight: 700; */
+    text-align: center;
+    font-family: "avenir-bold";
+}
+
+.title-sms-consul {
+    /* font-weight: 700; */
+    text-align: center;
+    font-family: "avenir-bold";
+}
+
+.title-sms {
+    font-size: 27px;
+    padding: 12px;
+    text-align: center;
+    /* height: 0; */
+    font-family: "avenir-bold";
+    height: initial;
+    margin: 15px;
+}
+
+.title-sms-1 {
+    padding: 12px;
+    text-align: center;
+}
+
+
+/* ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+} */
