@@ -216,6 +216,8 @@ overflow-y: hidden;
             text-align: center;
             margin: 50px 0;
             display: inherit;
+            display: flex;
+            justify-content: center;
         }
         .red {
             display: none;
@@ -353,12 +355,6 @@ color: white;
         .img-slider {
             transform: scale(0.7);
         }
-        /* .slick-slider .slick-track, .slick-slider .slick-list {
-            height: 300px;
-        } */
-
-
-
         .img-animated img {
             width: 252px;
             /* background: red; */
@@ -533,8 +529,6 @@ color: white;
         .p-price-one {
             font-size: 15px;
         }
-
-
 
         .column-2 img {
             width: 200px;
