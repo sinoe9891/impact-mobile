@@ -72,7 +72,7 @@ overflow-y: hidden;
         .footer-login {
             height: 100px;
             flex-direction: column;
-            position: absolute;
+            position: relative;
             /* position: fixed; */
             bottom: 0;
         }
@@ -358,9 +358,6 @@ color: white;
         /* .slick-slider .slick-track, .slick-slider .slick-list {
             height: 300px;
         } */
-
-
-
         .img-animated img {
             width: 252px;
             /* background: red; */
