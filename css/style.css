@@ -806,7 +806,7 @@ footer {
 }
 
 .footer-login {
-    padding: 20px 0;
+    padding: 40px 0;
     /* margin-top: 20px; */
     background: #20273B;
     width: 100%;
@@ -858,9 +858,9 @@ footer {
 
 .back-login {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* height: 827px; */
     background-image: url("../img/background-09.jpg");
     background-position: center;
@@ -872,7 +872,7 @@ footer {
     /* background-size: 100% 100%; */
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .main-login {
@@ -1033,6 +1033,7 @@ footer {
 
 .info-impact-sms {
     width: 50%;
+    padding: 20px;
     /* max-width: 1083px; */
 }
 
@@ -1317,4 +1318,281 @@ li {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+} */
+
+.hero-cotiza {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* display: flex;
+    justify-content: center;
+     */
+    background: rgba(66, 117, 174, 1);
+    background: -moz-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: -webkit-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: -o-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: -ms-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4275ae', endColorstr='#313b57', GradientType=1);
+    /* height: 827px; */
+    background-image: url("../img/back-cotiza.png");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image*/
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* background-size: 100% 100%; */
+    object-fit: cover;
+    width: 100%;
+    /* height: 100%; */
+    /* text-align: center */
+}
+
+.banner-cotiza{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container-cotiza {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container-cotiza {
+    width: 100%;
+    margin: 54px 0;
+
+}
+
+.title-banner-cotiza {
+    font-size: 70px;
+    font-family: "avenir-bold";
+    color: white;
+    margin: 70px 0 0 0;
+    /* text-align: right; */
+}
+.txt-cotiza {
+    font-size: 33px;
+    margin: 0;
+    text-align: center;
+}
+hr{
+    color: white;
+}
+.contact-box{
+    width: 588px;
+}
+.contacto-title{
+    font-size: 65px;
+    color:white;
+    padding: 0 30px;
+    margin: 30px 0;
+}
+
+.column-one-form{
+    width: 1080px;
+    display: flex;
+/* justify-content: space-between; */
+}
+
+.sms-form{
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.input-cotiza{
+    width: 455.43px;
+    margin-right: 80px;
+}
+.input-cotiza input{
+    width: 100%;
+    height: 59px;
+}
+
+.price-box-cotiza {
+    display: flex;
+    justify-content: center;
+    /* margin-top: -50px; */
+}
+
+.box-price-cotiza {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #DBA754;
+    width: 235px;
+    height: 361px;
+    margin: 16px;
+    -webkit-box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    background-image: url("../img/Grupo\ 122.png");
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    /* Do not repeat the image*/
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* background-size: 100% 100%; */
+    object-fit: cover;
+    /* width: 100%; */
+}
+
+.box-price-cotiza2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #DBA754;
+    width: 235px;
+    height: 361px;
+    margin: 16px;
+    -webkit-box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    background-image: url("../img/Grupo\ 123.png");
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    /* Do not repeat the image*/
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* background-size: 100% 100%; */
+    object-fit: cover;
+    /* width: 100%; */
+}
+
+.box-price-cotiza3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #DBA754;
+    width: 235px;
+    height: 361px;
+    margin: 16px;
+    -webkit-box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    background-image: url("../img/Grupo\ 124.png");
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    /* Do not repeat the image*/
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* background-size: 100% 100%; */
+    object-fit: cover;
+    /* width: 100%; */
+}
+
+.box-price-cotiza4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #DBA754;
+    width: 235px;
+    height: 361px;
+    margin: 16px;
+    -webkit-box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
+    background-image: url("../img/Grupo\ 125.png");
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    /* Do not repeat the image*/
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* background-size: 100% 100%; */
+    object-fit: cover;
+    /* width: 100%; */
+}
+
+.box-price-main{
+    width: 235px;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 0; */
+padding: 0;
+}
+
+.checkbox-cotiza{
+    font-size: 5px;
+    width: 235px;
+    text-align: center;
+}
+.checkbox-cotiza{
+    font-size: 5px;
+    width: 235px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.textarea-cotiza{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.box-textarea{
+    display: flex;
+
+justify-content: center;
+}
+
+.button-form-cotiza {
+    display: flex;
+    justify-content: end;
+    margin: 1px 0 1px 0;
+}
+
+
+
+#enviar-cotiza {
+    width: 316.46px;
+    height: 59px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 30px;
+    color: white;
+    background: #20273B;
+}
+
+#enviar-cotiza:active {
+    background: #4F77B3;
+    transform: scale(0.95);
+}
+
+
+/* input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    padding-left: 0;
+    margin: 0;
+    /* display: inline-block; */
+	/* width: 15px; */
+	/* height: 15px; */
+	/* margin: -1px 4px 0 0; */
+	/* vertical-align: middle; */
+	/* background: url(radio-uncheck.png); */
+	/* background-size: cover; */
+    /* cursor: pointer; 
+    border: 0;
+} */
+
+
+/* label.checked span.holder, label.checked span.holder, label.checked:hover span.holder, label.checked:hover span.holder {
+    top: -42px !important;
 } */
