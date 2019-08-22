@@ -53,7 +53,7 @@ p {
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -165,15 +165,61 @@ a {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4275ae', endColorstr='#313b57', GradientType=1);
 }
 
+.hero-services {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    /* height: 884px; */
+    /* padding: 79px; */
+    background: rgba(66, 117, 174, 1);
+    background: -moz-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: -webkit-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: -o-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: -ms-linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    background: linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4275ae', endColorstr='#313b57', GradientType=1);
+    /* height: 827px; */
+    background-image: url("../img/Grupo\ 256.png");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image*/
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* background-size: 100% 100%; */
+    object-fit: cover;
+    width: 100%;
+    /* height: 100%; */
+}
+
 .banner {
     width: 1200px;
     display: flex;
     color: white;
 }
 
+.banner-services {
+    width: 1200px;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
 .main-banner {
     z-index: 1;
     margin-right: -20px;
+}
+
+.line {
+    background: rgba(212, 122, 81, 1);
+    background: linear-gradient(45deg, rgba(212, 122, 81, 1) 0%, rgba(219, 167, 84, 1) 51%, rgba(219, 167, 84, 1) 100%);
+    height: 20px;
+}
+
+.main-banner-services {
+    z-index: 1;
+    /* margin-right: -20px; */
 }
 
 .mobile-banner {
@@ -185,6 +231,13 @@ a {
 .title-banner {
     font-family: "avenir-bold";
     color: white;
+    text-align: right;
+}
+
+.title-banner-services {
+    font-size: 162px;
+    font-family: "avenir-bold";
+    color: #383838;
     text-align: right;
 }
 
@@ -319,6 +372,7 @@ strong {
 .img-slider {
     transform: scale(0.8);
 }
+
 
 /* SERVICES */
 
@@ -585,11 +639,11 @@ h4 {
 }
 
 .cotiza-button h4 {
-  color: white;
-  font-size: 49px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    color: white;
+    font-size: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-cotiza-button {
@@ -750,16 +804,17 @@ footer {
     flex-direction: row;
     align-items: center;
 }
+
 .footer-login {
-  padding: 20px 0;
-  /* margin-top: 20px; */
-  background: #20273B;
-  width: 100%;
-  height: 111px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+    padding: 20px 0;
+    /* margin-top: 20px; */
+    background: #20273B;
+    width: 100%;
+    height: 111px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .copyright {
@@ -769,7 +824,7 @@ footer {
 }
 
 .column-footer1 {
-    padding: 10px;
+    /* padding: 10px; */
     background: #20273B;
     width: 100%;
     height: 100px;
@@ -806,7 +861,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 827px;
+    /* height: 827px; */
     background-image: url("../img/background-09.jpg");
     background-position: center;
     /* Center the image */
@@ -817,7 +872,7 @@ footer {
     /* background-size: 100% 100%; */
     object-fit: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .main-login {
@@ -900,6 +955,7 @@ footer {
     width: 80px;
 }
 
+
 /* #servicios:hover{
     color: #4f77b3;
 } */
@@ -908,20 +964,190 @@ footer {
     color: #4f77b3;
     transform: scale(0.95);
 }
+
 #login:active {
     color: #4f77b3;
     transform: scale(0.95);
 }
+
 #prueba:active {
     color: #4f77b3;
     transform: scale(0.95);
 }
 
-.red-mobile{
+.red-mobile {
     display: none;
 }
 
+
 /* Scroll Back to Top*/
-.scrollToTop{ background:#FFCC33; width:60px; height:60px; text-align:center;  position:fixed; bottom:60px; right:50px; display:none; z-index: 99; border-radius:100%; -webkit-border-radius:100%; -moz-border-radius:100%;}
-.scrollToTop:hover{ text-decoration:none; opacity:0.8;}
-.scrollToTop .scrollarrow {width: 0; height: 0; border-style: solid; border-width: 0 10px 15px 10px; border-color: transparent transparent #303030; display: block; margin:20px auto 0;}
+
+.scrollToTop {
+    background: #FFCC33;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    display: none;
+    z-index: 99;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+
+.scrollToTop:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.scrollToTop .scrollarrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 15px 10px;
+    border-color: transparent transparent #303030;
+    display: block;
+    margin: 20px auto 0;
+}
+
+
+/* SMS IMPACT */
+
+.container-sms-impact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 65px 0;
+    /* flex-direction: column; */
+    /* border:1px solid red; */
+}
+
+.sms-impact {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-impact-sms {
+    width: 50%;
+    /* max-width: 1083px; */
+}
+
+.movil-img {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-sms {
+    width: 50%;
+}
+
+.info-impact-sms {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px */
+}
+
+.txt-sms {
+    font-size: 27px;
+    text-align: justify;
+}
+
+.txt-sms-bullets {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 27px;
+}
+
+.types-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sms-alerts {
+    width: 198px;
+    text-align: center;
+}
+
+.sms-inter {
+    width: 224px;
+}
+
+.sms-consul {
+    width: 158px;
+}
+
+.promo-sms {
+    height: 110px;
+    text-align: center;
+}
+
+.citas-sms {
+    height: 110px;
+    text-align: center;
+}
+
+.recordatorio-sms {
+    height: 110px;
+    text-align: center;
+}
+
+.title-sms-alerts {
+    /* font-weight: 700; */
+    text-align: center;
+    font-family: "avenir-bold";
+}
+
+.title-sms-inter {
+    /* font-weight: 700; */
+    text-align: center;
+    font-family: "avenir-bold";
+}
+
+.title-sms-consul {
+    /* font-weight: 700; */
+    text-align: center;
+    font-family: "avenir-bold";
+}
+
+.title-sms {
+    font-size: 27px;
+    padding: 12px;
+    text-align: center;
+    /* height: 0; */
+    font-family: "avenir-bold";
+    height: initial;
+    margin: 15px;
+}
+
+.title-sms-1 {
+    padding: 12px;
+    text-align: center;
+}
+
+
+/* ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+} */

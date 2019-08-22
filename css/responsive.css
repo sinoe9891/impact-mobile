@@ -72,7 +72,7 @@ overflow-y: hidden;
         .footer-login {
             height: 100px;
             flex-direction: column;
-            position: absolute;
+            position: relative;
             /* position: fixed; */
             bottom: 0;
         }
@@ -355,6 +355,9 @@ color: white;
         .img-slider {
             transform: scale(0.7);
         }
+        /* .slick-slider .slick-track, .slick-slider .slick-list {
+            height: 300px;
+        } */
         .img-animated img {
             width: 252px;
             /* background: red; */
@@ -529,11 +532,10 @@ color: white;
         .p-price-one {
             font-size: 15px;
         }
-
         .column-2 img {
             width: 200px;
         }
-        .column-2{
+        .column-2 {
             display: flex;
             justify-content: center;
         }
@@ -545,10 +547,13 @@ color: white;
             width: 190px;
             font-size: 15px;
         }
-        .column-1, .column-2, .column-3, .column-4{
+        .column-1,
+        .column-2,
+        .column-3,
+        .column-4 {
             width: 190px;
         }
-        .column-3 img{
+        .column-3 img {
             width: 61px;
         }
         .background-bio {
@@ -557,19 +562,16 @@ color: white;
         .p-column:first-child {
             padding: 0 0 31px 0;
         }
-        
-        
     }
     /* @media only screen and (max-width: 481px) and (min-width: 1024px){
 
     } */
+    
     @media only screen and (max-width: 500px) and (min-width: 280px) {
         .menu-items.fs div {
             opacity: 1;
             margin-top: 30px;
         }
-
-        
         .column-2 img {
             width: 90px;
         }
@@ -581,10 +583,13 @@ color: white;
             width: 90px;
             font-size: 11px;
         }
-        .column-1, .column-2, .column-3, .column-4{
+        .column-1,
+        .column-2,
+        .column-3,
+        .column-4 {
             width: 90px;
         }
-        .column-3 img{
+        .column-3 img {
             width: 61px;
         }
         .background-bio {
@@ -637,5 +642,5 @@ color: white;
     html {
         height: 100%;
         width: 100%;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
