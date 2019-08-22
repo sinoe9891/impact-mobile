@@ -329,6 +329,12 @@
                     </p>
                 </div>
             </footer>
+            <script>
+                    $('.menu-burger, .menu-items').on('click', function() {
+                        $('.menu-bg, .menu-bg-top, .menu-items, .menu-burger').toggleClass('fs');
+                        $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
+                    });
+                </script>
     </body>
 
 </html>
