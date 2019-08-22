@@ -235,7 +235,7 @@ a {
 }
 
 .title-banner-services {
-    font-size: 162px;
+    font-size: 90px;
     font-family: "avenir-bold";
     color: #383838;
     text-align: right;
@@ -1143,6 +1143,173 @@ li {
 }
 
 
+/* ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+} */
+
+/* WIFI */
+
+.container-sms-impact-wifi {
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 65px 0;
+}
+/* WIFI */
+
+.container-sms-impact-screen {
+    background: #EFF0F1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 65px 0;
+}
+
+/* ADA */
+
+.container-sms-impact-ada {
+    background: #EFF0F1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 65px 0;
+}
+
+.sms-impact-ada {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-impact-sms {
+    width: 50%;
+    /* max-width: 1083px; */
+}
+
+.movil-img {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-sms {
+    width: 50%;
+}
+
+.info-impact-sms {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px */
+}
+
+.txt-sms {
+    font-size: 27px;
+    text-align: justify;
+}
+
+.txt-sms-bullets {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 27px;
+}
+
+.types-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sms-alerts {
+    width: 198px;
+    text-align: center;
+}
+
+.sms-inter {
+    width: 224px;
+}
+
+.sms-consul {
+    width: 158px;
+}
+
+
+
+
+.landing-ada {
+    height: 110px;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+.email-ada {
+    height: 110px;
+    text-align: center;
+}
+
+.recordatorio-ada {
+    height: 110px;
+    text-align: center;
+}
+
+.title-sms-alerts {
+    /* font-weight: 700; */
+    text-align: center;
+    font-family: "avenir-bold";
+}
+
+.title-sms-inter {
+    /* font-weight: 700; */
+    text-align: center;
+    font-family: "avenir-bold";
+}
+
+.title-sms-consul {
+    /* font-weight: 700; */
+    text-align: center;
+    font-family: "avenir-bold";
+}
+
+.title-sms {
+    font-size: 27px;
+    padding: 12px;
+    text-align: center;
+    /* height: 0; */
+    font-family: "avenir-bold";
+    height: initial;
+    margin: 15px;
+}
+
+.title-sms-1 {
+    padding: 12px;
+    text-align: center;
+}
+
+.logo-sms{
+    text-align: center;  
+}
+
+.logo-sms img{
+    width: 388px;
+}
 /* ul li::before {
     content: "\2022";
     color: red;
