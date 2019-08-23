@@ -709,9 +709,9 @@ h4 {
 }
 
 .contact {
-    /* width: 1062px; */
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     /* flex-wrap: wrap; */
     background: rgba(212, 122, 81, 1);
     background: linear-gradient(45deg, rgba(212, 122, 81, 1) 0%, rgba(219, 167, 84, 1) 51%, rgba(219, 167, 84, 1) 100%);
