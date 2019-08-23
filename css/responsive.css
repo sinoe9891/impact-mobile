@@ -759,6 +759,9 @@ color: white;
             width: 160px;
             height: 261px;
         }
+        .textarea-cotiza {
+            width: 300px;
+        }
 
     }
     /* @media only screen and (max-width: 481px) and (min-width: 1024px){
