@@ -179,7 +179,7 @@ a {
     background: linear-gradient( 45deg, rgba(66, 117, 174, 1) 0%, rgba(66, 117, 174, 1) 1%, rgba(66, 117, 174, 1) 50%, rgba(49, 59, 87, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4275ae', endColorstr='#313b57', GradientType=1);
     /* height: 827px; */
-    background-image: url("../img/Grupo\ 256.png");
+    background-image: url("../img/Grupo-256.png");
     background-position: center;
     /* Center the image */
     background-repeat: no-repeat;
