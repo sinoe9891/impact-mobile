@@ -370,6 +370,9 @@ color: white;
         .mobile-banner {
             margin-right: 0;
         }
+        .pago{
+            margin-top: 20px;
+        }
     }
     
 
@@ -594,7 +597,8 @@ color: white;
             padding: 0 0 31px 0;
         }
 
-
+        .title-banner-services {
+            font-size: 60px;}
         .sms-impact{
             flex-wrap: wrap;
         }
