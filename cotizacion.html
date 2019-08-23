@@ -36,25 +36,41 @@
 <body>
     <!-- Header -->
     <header>
-        <nav>
-            <div class="logo">
-                <a href="index.html"><img src="img/logo.png" alt="Logo-IP"></a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <a href="servicios.html">
-                        <li>Servicios</li>
-                    </a>
-                    <a href="login.html">
-                        <li>Login</li>
-                    </a>
-                    <a href="cotizacion.html">
-                        <li id="prueba-cotiza">Prueba ahora</li>
-                    </a>
-                </ul>
-            </div>
-        </nav>
-    </header>
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="Logo-IP"></a>
+                </div>
+                <div class="menu-hamb">
+                    <div class="menu-bg"></div>
+                    <div class="menu-burger">☰</div>
+                    <div class="menu-items">
+                        <a href="servicios.html">
+                            <div id="servicios">SERVICIOS</div>
+                        </a>
+                        <a href="login.html">
+                            <div id="login">LOGIN</div>
+                        </a>
+                        <a href="cotizacion.html">
+                            <div id="prueba">PRUEBA AHORA</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <a href="servicios.html">
+                            <li>Servicios</li>
+                        </a>
+                        <a href="login.html">
+                            <li>Login</li>
+                        </a>
+                        <a href="cotizacion.html">
+                            <li id="prueba-cotiza">Prueba ahora</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
     <!-- Container -->
     <div class="main-container-cotiza">
         <div class="hero-cotiza">
@@ -69,7 +85,7 @@
             </div>
             <div class="container-cotiza">
                 <div class="sms-form">
-                    <form action="">
+                    <form action="" class="form-cotiza">
                         <div class="column-one-form">
                             <div class="contact-box">
                                 <p class="contacto-title">
@@ -188,6 +204,12 @@
                 </p>
             </div>
         </footer>
+        <script>
+                $('.menu-burger, .menu-items').on('click', function() {
+                    $('.menu-bg, .menu-bg-top, .menu-items, .menu-burger').toggleClass('fs');
+                    $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
+                });
+            </script>
 </body>
 
 </html>

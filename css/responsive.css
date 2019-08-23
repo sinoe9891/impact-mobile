@@ -381,8 +381,57 @@ color: white;
         .pago{
             margin-top: 20px;
         }
+
+        /* COTIZA */
+        .column-one-form {
+            flex-wrap: wrap;
+
+    justify-content: center;
+        }
+        .contacto-title {
+            text-align: center;
+        }
+        .container-cotiza{
+            margin: 0;
+        }
+        .box-main-price {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+    .box-price-cotiza {
+        margin: 16px 0 0 0;
     }
+    .box-price-cotiza2 {
+        margin: 16px 0 0 0;
+    }
+    .box-price-cotiza3 {
+        margin: 16px 0 0 0;
+    }
+    .box-price-cotiza4 {
+        margin: 16px 0 0 0;
+    }
+    .textarea-cotiza {
+        width: 463px;
+        /* max-width: 1000px; */
+        height: 274px;
+    }
+    .button-form-cotiza {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+    .column-one-form {
+        width: 100%;
+    }
+    .form-cotiza {
+        width: 100%;
+        margin: 0 20px;
+    }
+}
     
+    /* END 992 */
 
 
 
@@ -666,6 +715,15 @@ color: white;
             /* width: 158px; */
             margin-top: 20px;
         }
+        .input-cotiza {
+            width: 80%;
+            margin-right: 0;
+        }
+        .input-cotiza input {
+            width: 100%;
+            /* height: 59px; */
+        }
+
     }
     /* @media only screen and (max-width: 481px) and (min-width: 1024px){
 
