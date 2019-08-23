@@ -192,6 +192,15 @@ a {
     /* height: 100%; */
 }
 
+.videoswiper .swiper-card {
+    position: relative;
+  /*   height: 220px; */
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border:1px solid red;
+  }
 .banner {
     width: 1200px;
     display: flex;
