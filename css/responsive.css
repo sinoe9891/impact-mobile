@@ -90,6 +90,33 @@ overflow-y: hidden;
         .p-footer {
             font-size: 9px;
         }
+
+        .sms-impact{
+            flex-wrap: wrap;
+        }
+        .sms-impact-ada{
+            flex-wrap: wrap;
+        }
+
+        .movil-img{
+            display: none;
+        }
+        .movil-img-tablet{
+            display: flex;
+        }
+        .movil-img-wifi{
+            display: flex;
+        }
+        .movil-img-screen{
+            display: flex;
+        }
+        .info-impact-sms {
+            width: 100%;
+            margin: 0 20px;
+        }
+
+
+
     }
     
     @media screen and (max-width:992px) {
@@ -345,6 +372,10 @@ color: white;
         }
     }
     
+
+
+
+
     @media screen and (min-width:1024px) {}
     
     @media screen and (min-width:1200px) {}
@@ -561,6 +592,62 @@ color: white;
         }
         .p-column:first-child {
             padding: 0 0 31px 0;
+        }
+
+
+        .sms-impact{
+            flex-wrap: wrap;
+        }
+        .sms-impact-ada{
+            flex-wrap: wrap;
+        }
+        .logo-sms img {
+            width: 80%;
+        }
+        .movil-img{
+            display: none;
+        }
+        .movil-img-tablet{
+            display: flex;
+        }
+        .movil-img-tablet img{
+            /* width: 100%; */
+            width: 240px;
+        }
+        .movil-img-wifi{
+            display: flex;
+        }
+        .movil-img-wifi img{
+           width: 90%;
+        }
+        .movil-img-wifi img{
+            width: 90%;
+        }
+        .movil-img-screen{
+            display: flex;
+        }
+        .movil-img-screen img{
+            width: 90%;
+         }
+        .info-impact-sms {
+            width: 80%;
+            margin: 0 20px;
+        }
+        .txt-sms {
+            font-size: 22px;
+        }
+        li {
+            font-size: 22px;
+            text-align: justify;
+        }
+        .types-box {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .sms-consul {
+            /* width: 158px; */
+            margin-top: 20px;
         }
     }
     /* @media only screen and (max-width: 481px) and (min-width: 1024px){

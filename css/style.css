@@ -1044,6 +1044,36 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.movil-img-tablet {
+    width: 50%;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.movil-img-tablet {
+    width: 50%;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.movil-img-wifi {
+    width: 50%;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.movil-img-screen {
+    width: 50%;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .type-sms {
     width: 50%;
