@@ -194,13 +194,14 @@ a {
 
 .videoswiper .swiper-card {
     position: relative;
-  /*   height: 220px; */
+    /*   height: 220px; */
     background-color: white;
     padding: 10px;
     box-sizing: border-box;
     cursor: pointer;
-    border:1px solid red;
-  }
+    border: 1px solid red;
+}
+
 .banner {
     width: 1200px;
     display: flex;
@@ -478,13 +479,23 @@ h4 {
 
 /* PRECIOS */
 
-.cotiza {
-    background: white;
-    padding: 25px;
-    margin: 89px 0 0 0;
+.main-services-cotiza {
+    /* border: 1px solid #DBA754; */
+    /* background: white; */
     -webkit-box-shadow: -3px 17px 24px -2px rgba(0, 0, 0, 0.61);
     -moz-box-shadow: -3px 17px 24px -2px rgba(0, 0, 0, 0.61);
     box-shadow: -3px 17px 24px -2px rgba(0, 0, 0, 0.61);
+}
+
+.cotiza {
+    /* border: 0; */
+    border: 1px solid #DBA754;
+    background: white;
+    padding: 25px;
+    margin: 89px 0 0 0;
+    /* -webkit-box-shadow: -3px 17px 24px -2px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: -3px 17px 24px -2px rgba(0, 0, 0, 0.61);
+    box-shadow: -3px 17px 24px -2px rgba(0, 0, 0, 0.61); */
 }
 
 .box-price {
@@ -1053,6 +1064,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 .movil-img-tablet {
     width: 50%;
     padding: 20px;
@@ -1060,6 +1072,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 .movil-img-tablet {
     width: 50%;
     padding: 20px;
@@ -1067,6 +1080,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 .movil-img-wifi {
     width: 50%;
     padding: 20px;
@@ -1074,6 +1088,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 .movil-img-screen {
     width: 50%;
     padding: 20px;
@@ -1081,8 +1096,6 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-
 
 .type-sms {
     width: 50%;
@@ -1192,6 +1205,7 @@ li {
     margin-left: -1em;
 } */
 
+
 /* WIFI */
 
 .container-sms-impact-wifi {
@@ -1201,6 +1215,8 @@ li {
     justify-content: center;
     padding: 65px 0;
 }
+
+
 /* WIFI */
 
 .container-sms-impact-screen {
@@ -1210,6 +1226,7 @@ li {
     justify-content: center;
     padding: 65px 0;
 }
+
 
 /* ADA */
 
@@ -1291,9 +1308,6 @@ li {
     width: 158px;
 }
 
-
-
-
 .landing-ada {
     height: 110px;
     text-align: center;
@@ -1343,13 +1357,15 @@ li {
     text-align: center;
 }
 
-.logo-sms{
-    text-align: center;  
+.logo-sms {
+    text-align: center;
 }
 
-.logo-sms img{
+.logo-sms img {
     width: 388px;
 }
+
+
 /* ul li::before {
     content: "\2022";
     color: red;
@@ -1388,7 +1404,7 @@ li {
     /* text-align: center */
 }
 
-.banner-cotiza{
+.banner-cotiza {
     width: 100%;
     color: white;
     display: flex;
@@ -1401,13 +1417,11 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .container-cotiza {
     width: 100%;
     margin: 54px 0;
-
 }
 
 .title-banner-cotiza {
@@ -1417,41 +1431,46 @@ li {
     margin: 70px 0 0 0;
     /* text-align: right; */
 }
+
 .txt-cotiza {
     font-size: 33px;
     margin: 0;
     text-align: center;
 }
-hr{
+
+hr {
     color: white;
 }
-.contact-box{
+
+.contact-box {
     width: 588px;
 }
-.contacto-title{
+
+.contacto-title {
     font-size: 65px;
-    color:white;
+    color: white;
     padding: 0 30px;
     margin: 30px 0;
 }
 
-.column-one-form{
+.column-one-form {
     width: 1080px;
     display: flex;
-/* justify-content: space-between; */
+    /* justify-content: space-between; */
 }
 
-.sms-form{
+.sms-form {
     width: 100%;
     display: flex;
     justify-content: center
 }
 
-.input-cotiza{
+.input-cotiza {
     width: 455.43px;
     margin-right: 80px;
 }
-.input-cotiza input{
+
+.input-cotiza input {
     width: 100%;
     height: 59px;
 }
@@ -1558,37 +1577,37 @@ hr{
     /* width: 100%; */
 }
 
-.box-price-main{
+.box-price-main {
     width: 235px;
     margin: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     /* margin: 0; */
-padding: 0;
+    padding: 0;
 }
 
-.checkbox-cotiza{
+.checkbox-cotiza {
     font-size: 5px;
     width: 235px;
     text-align: center;
 }
-.checkbox-cotiza{
+
+.checkbox-cotiza {
     font-size: 5px;
     width: 235px;
     text-align: center;
     padding-left: 0;
 }
 
-.textarea-cotiza{
+.textarea-cotiza {
     width: 100%;
     max-width: 1000px;
 }
 
-.box-textarea{
+.box-textarea {
     display: flex;
-
-justify-content: center;
+    justify-content: center;
 }
 
 .button-form-cotiza {
@@ -1596,8 +1615,6 @@ justify-content: center;
     justify-content: end;
     margin: 1px 0 1px 0;
 }
-
-
 
 #enviar-cotiza {
     width: 316.46px;
@@ -1614,9 +1631,10 @@ justify-content: center;
     transform: scale(0.95);
 }
 
-.box-price-main:active{
+.box-price-main:active {
     transform: scale(0.98);
 }
+
 
 /* input[type="checkbox"]{
     width: 20px;
@@ -1624,13 +1642,27 @@ justify-content: center;
     padding-left: 0;
     margin: 0;
     /* display: inline-block; */
-	/* width: 15px; */
-	/* height: 15px; */
-	/* margin: -1px 4px 0 0; */
-	/* vertical-align: middle; */
-	/* background: url(radio-uncheck.png); */
-	/* background-size: cover; */
-    /* cursor: pointer; 
+
+
+/* width: 15px; */
+
+
+/* height: 15px; */
+
+
+/* margin: -1px 4px 0 0; */
+
+
+/* vertical-align: middle; */
+
+
+/* background: url(radio-uncheck.png); */
+
+
+/* background-size: cover; */
+
+
+/* cursor: pointer; 
     border: 0;
 } */
 

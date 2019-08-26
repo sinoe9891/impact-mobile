@@ -90,33 +90,28 @@ overflow-y: hidden;
         .p-footer {
             font-size: 9px;
         }
-
-        .sms-impact{
+        .sms-impact {
             flex-wrap: wrap;
         }
-        .sms-impact-ada{
+        .sms-impact-ada {
             flex-wrap: wrap;
         }
-
-        .movil-img{
+        .movil-img {
             display: none;
         }
-        .movil-img-tablet{
+        .movil-img-tablet {
             display: flex;
         }
-        .movil-img-wifi{
+        .movil-img-wifi {
             display: flex;
         }
-        .movil-img-screen{
+        .movil-img-screen {
             display: flex;
         }
         .info-impact-sms {
             width: 100%;
             margin: 0 20px;
         }
-
-
-
     }
     
     @media screen and (max-width:992px) {
@@ -220,6 +215,12 @@ overflow-y: hidden;
         }
         .main-services-cotiza {
             margin-top: -100px;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        .cotiza {
+            border: 0px solid #DBA754;
         }
         .box-main-services {
             margin-bottom: 40px;
@@ -237,7 +238,7 @@ overflow-y: hidden;
             flex-direction: initial;
             margin: 0;
         }
-        .title-contact{
+        .title-contact {
             width: 524px;
         }
         .column-second {
@@ -378,20 +379,18 @@ color: white;
         .mobile-banner {
             margin-right: 0;
         }
-        .pago{
+        .pago {
             margin-top: 20px;
         }
-
         /* COTIZA */
         .column-one-form {
             flex-wrap: wrap;
-
-    justify-content: center;
+            justify-content: center;
         }
         .contacto-title {
             text-align: center;
         }
-        .container-cotiza{
+        .container-cotiza {
             margin: 0;
         }
         .box-main-price {
@@ -399,46 +398,41 @@ color: white;
             flex-direction: column;
             flex-wrap: wrap;
         }
-
-    .box-price-cotiza {
-        margin: 16px 0 0 0;
+        .box-price-cotiza {
+            margin: 16px 0 0 0;
+        }
+        .box-price-cotiza2 {
+            margin: 16px 0 0 0;
+        }
+        .box-price-cotiza3 {
+            margin: 16px 0 0 0;
+        }
+        .box-price-cotiza4 {
+            margin: 16px 0 0 0;
+        }
+        .textarea-cotiza {
+            width: 463px;
+            /* max-width: 1000px; */
+            height: 274px;
+        }
+        .button-form-cotiza {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        .column-one-form {
+            width: 100%;
+        }
+        .form-cotiza {
+            width: 100%;
+            margin: 0 20px;
+        }
+        .input-cotiza {
+            margin-right: 0;
+        }
     }
-    .box-price-cotiza2 {
-        margin: 16px 0 0 0;
-    }
-    .box-price-cotiza3 {
-        margin: 16px 0 0 0;
-    }
-    .box-price-cotiza4 {
-        margin: 16px 0 0 0;
-    }
-    .textarea-cotiza {
-        width: 463px;
-        /* max-width: 1000px; */
-        height: 274px;
-    }
-    .button-form-cotiza {
-        display: flex;
-        justify-content: center;
-        margin: 40px 0;
-    }
-    .column-one-form {
-        width: 100%;
-    }
-    .form-cotiza {
-        width: 100%;
-        margin: 0 20px;
-    }
-    .input-cotiza{
-        margin-right: 0;
-    }
-}
-    
     /* END 992 */
-
-
-
-
+    
     @media screen and (min-width:1024px) {}
     
     @media screen and (min-width:1200px) {}
@@ -547,8 +541,7 @@ color: white;
         .column-one {
             width: 100%;
             height: 400px;
-
-    margin: 20px 0;
+            margin: 20px 0;
             /* height: 500px; */
         }
         .title-contact {
@@ -664,43 +657,43 @@ color: white;
         .p-column:first-child {
             padding: 0 0 31px 0;
         }
-
         .title-banner-services {
-            font-size: 60px;}
-        .sms-impact{
+            font-size: 60px;
+        }
+        .sms-impact {
             flex-wrap: wrap;
         }
-        .sms-impact-ada{
+        .sms-impact-ada {
             flex-wrap: wrap;
         }
         .logo-sms img {
             width: 80%;
         }
-        .movil-img{
+        .movil-img {
             display: none;
         }
-        .movil-img-tablet{
+        .movil-img-tablet {
             display: flex;
         }
-        .movil-img-tablet img{
+        .movil-img-tablet img {
             /* width: 100%; */
             width: 240px;
         }
-        .movil-img-wifi{
+        .movil-img-wifi {
             display: flex;
         }
-        .movil-img-wifi img{
-           width: 90%;
-        }
-        .movil-img-wifi img{
+        .movil-img-wifi img {
             width: 90%;
         }
-        .movil-img-screen{
+        .movil-img-wifi img {
+            width: 90%;
+        }
+        .movil-img-screen {
             display: flex;
         }
-        .movil-img-screen img{
+        .movil-img-screen img {
             width: 90%;
-         }
+        }
         .info-impact-sms {
             width: 80%;
             margin: 0 20px;
@@ -765,7 +758,6 @@ color: white;
         .textarea-cotiza {
             width: 300px;
         }
-
     }
     /* @media only screen and (max-width: 481px) and (min-width: 1024px){
 
@@ -824,9 +816,9 @@ color: white;
             width: 120px;
             height: 261px;
         }
-        .textarea-cotiza{
+        .textarea-cotiza {
             width: 100%;
-    margin: 10px 10px;
+            margin: 10px 10px;
         }
     }
     /* @media screen and (max-width:1024px) {
