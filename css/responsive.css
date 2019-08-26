@@ -449,6 +449,9 @@ color: white;
         .img-slider {
             transform: scale(0.7);
         }
+        .menu-items.fs div {
+            font-size: 20px;
+        }
         /* .slick-slider .slick-track, .slick-slider .slick-list {
             height: 300px;
         } */
@@ -768,8 +771,9 @@ color: white;
 
     } */
     
-    @media only screen and (max-width: 347px) and (min-width: 280px) {
+    @media only screen and (max-width: 370px) and (min-width: 280px) {
         .menu-items.fs div {
+            font-size: 20px;
             opacity: 1;
             margin-top: 30px;
         }
