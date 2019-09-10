@@ -470,7 +470,9 @@ a {
        object-fit: cover;
     width: 100%;
 }
-
+.slick-dots li button:before {
+    display: none !important;
+}
 .img-play{
     display: -webkit-box;
     display: -ms-flexbox;
