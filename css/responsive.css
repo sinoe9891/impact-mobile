@@ -3,7 +3,41 @@
 width: 180px;
 }
 } */
-    
+@media screen and (max-height:768px) {
+    .logo-login a{
+        text-align: center;
+        
+    }
+    .logo-login a>img{
+        width: 70%;
+        
+    }
+    .header-login {
+        top: 0;
+        width: 100%;
+        height: 90px;
+        background: #20273B;
+    }
+    .login-img{
+        text-align: center;
+    }
+    .login-img img{
+        width: 40%;
+    }
+    .main-login {
+        width: 350px;
+        height: 500px;
+    }
+    .p-sms{
+        font-size: 23px;
+    }
+    .img-sms img {
+        width: 61px;
+    }
+    .img-lp img {
+        width: 60px;
+    }
+}
 @media screen and (max-width:768px) {
     /* .menu-hamb {
 display: inline;
