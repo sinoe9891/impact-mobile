@@ -39,6 +39,25 @@
     <script type="text/javascript" src="js/slide.js"></script>
 
     <body>
+        <!-- Code Facebook -->
+        <!-- WhatsHelp.io widget -->
+        <script type="text/javascript">
+            (function () {
+                var options = {
+                    facebook: "1960491964189596", // Facebook page ID
+                    whatsapp: "33138664", // WhatsApp number
+                    call_to_action: "Hola, ¿en qué podemos ayudarte?", // Call to action
+                    button_color: "#129BF4", // Color of button
+                    position: "right", // Position may be 'right' or 'left'
+                    order: "facebook,whatsapp", // Order of buttons
+                };
+                var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+                var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+            })();
+        </script>
+        <!-- /WhatsHelp.io widget -->
         <!-- Header -->
         <header>
             <nav>
@@ -102,14 +121,20 @@
             <div class="container">
                 <!-- VIDEO -->
                 <div class="video videoswiper">
-                    <a href="https://www.youtube.com/watch?v=C9weN-xrCTI?rel=0&amp;autoplay=1"> <img src="img/play-icon.png" alt=""></a>
+                        <a href="https://www.youtube.com/watch?v=C9weN-xrCTI?rel=0&amp;autoplay=1"><div class="video2">
+                            <div class="img-play-1">
+                            </div>
+                    </div></a>
+                    <!-- <a href="https://www.youtube.com/watch?v=C9weN-xrCTI?rel=0&amp;autoplay=1"> <img class="img-play" src="img/play-icon.png" alt=""></a> -->
+                    
                 </div>
                 <!-- SKILLS -->
-                <div>
+                <div class="bio-back">
                     <div class="bio">
-                        <img class="background-bio" src="img/fondo-experiencia.png" alt="">
+                        <!-- <img class="background-bio" src="img/fondo-experiencia.png" alt=""> -->
                         <div class="skills">
-                            <div class="p-title">
+                            <img src="img/nosotros.png" srcset="img/nosotros.png 1x, img/nosotros@2x.png 2x" alt="">
+                            <!-- <div class="p-title">
                                 <p class="p-bio">Contamos con <strong>plataformas</strong> integrales, exitosas y rentables para tu empresa</p>
                             </div>
                             <div class="columns">
@@ -126,7 +151,7 @@
                                     <p class="p-column">Somos una empresa con <strong>Certificaciones ISO</strong> 27001 y 22301</p>
                                     <img src="img/logos certificados.png" alt="">
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- <div class="triangulo">
                                     <p></p>
@@ -155,6 +180,52 @@
                     <div class="img-slider">
                         <img src="img/clients/clients-05.png">
                     </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-10.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-11.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-12.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-13.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-14.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-15.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-16.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-17.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-18.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-19.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-20.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-21.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-22.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-23.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="img/clients/clients-24.png">
+                    </div>
+                     
                 </section>
             </div>
             <div class="container">

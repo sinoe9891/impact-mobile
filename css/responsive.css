@@ -151,7 +151,16 @@ overflow-y: hidden;
         }
         /* SKILLS */
         .skills {
-            width: 709px;
+            padding: 40px;
+        }
+        .video2{
+            /* width: 100%; */
+            max-width: 271px;
+            max-height: 313px;
+            width: 100px;
+            height: 133px;
+            cursor: pointer;
+            
         }
         .column-2 img {
             width: 212px;
