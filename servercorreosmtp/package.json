@@ -1,0 +1,28 @@
+{
+  "name": "servercorreosmtp",
+  "version": "1.0.0",
+  "description": "Servidor SMTP",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "email-templates": "^6.0.0",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "nodemailer": "^6.3.0",
+    "pug": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "CJAlvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
