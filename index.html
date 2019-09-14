@@ -42,7 +42,7 @@
         <!-- Code Facebook -->
         <!-- WhatsHelp.io widget -->
         <script type="text/javascript">
-            (function () {
+            (function() {
                 var options = {
                     facebook: "1960491964189596", // Facebook page ID
                     whatsapp: "33138664", // WhatsApp number
@@ -51,10 +51,18 @@
                     position: "right", // Position may be 'right' or 'left'
                     order: "facebook,whatsapp", // Order of buttons
                 };
-                var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-                s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-                var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+                var proto = document.location.protocol,
+                    host = "whatshelp.io",
+                    url = proto + "//static." + host;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function() {
+                    WhWidgetSendButton.init(host, proto, options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
             })();
         </script>
         <!-- /WhatsHelp.io widget -->
@@ -121,12 +129,14 @@
             <div class="container">
                 <!-- VIDEO -->
                 <div class="video videoswiper">
-                        <a href="https://www.youtube.com/watch?v=C9weN-xrCTI?rel=0&amp;autoplay=1"><div class="video2">
+                    <a href="https://www.youtube.com/watch?v=C9weN-xrCTI?rel=0&amp;autoplay=1">
+                        <div class="video2">
                             <div class="img-play-1">
                             </div>
-                    </div></a>
+                        </div>
+                    </a>
                     <!-- <a href="https://www.youtube.com/watch?v=C9weN-xrCTI?rel=0&amp;autoplay=1"> <img class="img-play" src="img/play-icon.png" alt=""></a> -->
-                    
+
                 </div>
                 <!-- SKILLS -->
                 <div class="bio-back">
@@ -225,7 +235,7 @@
                     <div class="img-slider">
                         <img src="img/clients/clients-24.png">
                     </div>
-                     
+
                 </section>
             </div>
             <div class="container">
@@ -422,16 +432,16 @@
                             </div>
                         </div>
                         <div class="column-second">
-                            <form action="">
+                            <div class="form">
                                 <input type="text" name="" id="nombre" placeholder="Nombre">
                                 <input type="text" name="" id="apellido" placeholder="Apellido">
                                 <input type="email" name="" id="email" placeholder="Correo">
                                 <input type="tel" name="" id="telefono" placeholder="Teléfono">
-                                <textarea name="mensaje" placeholder="¿En que podemos ayudarte?"></textarea>
+                                <textarea id="mensaje" name="mensaje" placeholder="¿En que podemos ayudarte?"></textarea>
                                 <div class="button-form">
                                     <button id="enviar">Enviar</button>
                                 </div>
-                            </form>
+                            </div>
                             <div class="red-mobile">
                                 <div>
                                     <a href="https://www.facebook.com/impactmobilehn/"><img id="facebook1" src="img/icon/Grupo 82.svg" alt=""></a>
@@ -463,6 +473,32 @@
                                 src: href
                             },
                             type: 'iframe'
+                        });
+                    });
+                    $('#enviar').click(function() {
+                        var email = $('#email').val();
+                        var nombre = $('#nombre').val();
+                        var apellido = $('#apellido').val();
+                        var telefono = $('#telefono').val();
+                        var mensaje = $('#mensaje').val();
+                        var bodyEmail = `
+                            ${nombre} ${apellido} con ${telefono} quiere contactarse.
+                            ${mensaje}
+                        `;
+                        $.ajax({
+                            url: 'http://impactmobilehn.net:38202/secretapi/sendEmail',
+                            data: {
+                                "to": email,
+                                "subject": nombre + " " + apellido + " quiere contactarse",
+                                "html": bodyEmail
+                            },
+                            type: 'post',
+                            success: function(result) {
+                                console.log(result);
+
+                                alert("correo enviado")
+                                location.reload();
+                            }
                         });
                     });
                 </script>
