@@ -589,20 +589,6 @@ strong {
     flex-direction: row;
 }
 
-.services-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-.box-img-services {
-    /* margin-top: -200px; */
-    margin-top: -60px;
-}
-
 .box-services {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -624,6 +610,54 @@ strong {
     box-shadow: -3px 17px 24px -10px rgba(0, 0, 0, 0.61);
 }
 
+.box-img-services {
+    /* margin-top: -200px; */
+    margin-top: -60px;
+}
+
+.img-services {
+    width: 150px;
+    height: 165px;
+}
+
+.name-services {
+    width: 270px;
+    height: 79px;
+}
+
+.name-services,
+h4 {
+    margin: 0;
+    /* width: 270px; */
+    height: 79px;
+}
+
+.description-services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* width: 203px; */
+    height: 272px;
+}
+
+.p-services {
+    font-size: 25px;
+    line-height: 41px;
+    width: 200px;
+}
+
+.services-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
 .main-services {
     /* margin-top: 150px; */
 }
@@ -635,11 +669,6 @@ strong {
     /* height: 100vh; */
     -o-object-fit: cover;
     object-fit: cover;
-}
-
-.img-services {
-    width: 150px;
-    height: 165px;
 }
 
 .background-img-services {
@@ -664,35 +693,6 @@ strong {
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
-}
-
-.description-services {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    /* width: 203px; */
-    height: 272px;
-}
-
-.p-services {
-    font-size: 25px;
-    line-height: 41px;
-    width: 200px;
-}
-
-.name-services {
-    width: 270px;
-    height: 79px;
-}
-
-.name-services,
-h4 {
-    margin: 0;
-    /* width: 270px; */
-    height: 79px;
 }
 
 
