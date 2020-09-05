@@ -3,7 +3,7 @@
 * [URL](https://sinoe9891.github.io/impact-mobile/) - Ver Sitio
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+![alt text](https://github.com/sinoe9891/impact-mobile/blob/master/index.png)
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
