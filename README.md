@@ -1,7 +1,6 @@
-# Título del Proyecto
+# Diseño Estático Impact Mobile Honduras
 
-_Acá va un párrafo que describa lo que es el proyecto_
-
+* [URL](https://sinoe9891.github.io/impact-mobile/) - Ver Sitio
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
